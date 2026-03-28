@@ -9,3 +9,12 @@ navigation:
     url: https://neuromancerai.github.io/about/  # This must match the 'permalink' from your page
     header_pages:
   - about.md
+  
+defaults:
+  - scope:
+      path: "" # empty string means all files
+    values:
+      layout: "single"
+      author_profile: true # This shows your bio/social links
+      sidebar:
+        nav: "main" # Matches the 'main' key in navigation.yml
