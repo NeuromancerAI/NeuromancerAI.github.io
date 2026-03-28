@@ -7,3 +7,5 @@ navigation:
     url: /https://neuromancerai.github.io/
   - title: About
     url: https://neuromancerai.github.io/about/  # This must match the 'permalink' from your page
+    header_pages:
+  - about.md
