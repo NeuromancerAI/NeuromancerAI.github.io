@@ -24,5 +24,4 @@ defaults:
       author_profile: true
       sidebar:
         nav: "navigation" # This must match the key 'navigation' above
-plugins:
-  - jekyll-remote-theme
+
