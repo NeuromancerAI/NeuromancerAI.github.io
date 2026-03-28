@@ -1,6 +1,8 @@
 ---
 layout: page
-title: "My New Page"
-permalink: /my-page/
+title: "About Me"
+permalink: /about/
 ---
-test
+
+# About Me
+Hi, I'm the creator of NeuromancerAI. This site explores...
