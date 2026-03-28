@@ -1,3 +1,9 @@
 theme: jekyll-theme-minimal
 title: DIMO ILIEV,  Senior Technical Product Manager 
 description: Bookmark this to keep an eye on my project updates!
+# Inside _config.yml or _data/navigation.yml
+navigation:
+  - title: Home
+    url: /https://neuromancerai.github.io/
+  - title: About
+    url: https://neuromancerai.github.io/about/  # This must match the 'permalink' from your page
