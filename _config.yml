@@ -18,8 +18,8 @@ defaults:
       author_profile: true # This shows your bio/social links
       sidebar:
         nav: "main" # Matches the 'main' key in navigation.yml
-
-        ---
+        
+---
 layout: home
 author_profile: true
 feature_row:
@@ -31,3 +31,4 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "View Repository"
 ---
+{% include feature_row %}
