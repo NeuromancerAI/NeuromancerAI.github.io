@@ -6,10 +6,4 @@ title: Home
 This is the homepage of my site.
 [About Me](/about/)
 ---
-layout: home
-title: Welcome
-header:
-  actions:
-    - label: "Learn More About Me"
-      url: /about/
----
+
