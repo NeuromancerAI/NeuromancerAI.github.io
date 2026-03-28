@@ -1,34 +1,19 @@
 theme: jekyll-theme-minimal
-title: DIMO ILIEV,  Senior Technical Product Manager 
-description: Bookmark this to keep an eye on my project updates!
-# Inside _config.yml or _data/navigation.yml
+title: "DIMO ILIEV, Senior Technical Product Manager"
+description: "Bookmark this to keep an eye on my project updates!"
+
+# Site Navigation
 navigation:
-  - title: Home
-    url: /https://neuromancerai.github.io/
-  - title: About
-    url: https://neuromancerai.github.io/about/  # This must match the 'permalink' from your page
-    header_pages:
-  - about.md
-  
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+
 defaults:
   - scope:
-      path: "" # empty string means all files
+      path: "" 
     values:
       layout: "single"
-      author_profile: true # This shows your bio/social links
+      author_profile: true
       sidebar:
-        nav: "main" # Matches the 'main' key in navigation.yml
-        
----
-layout: home
-author_profile: true
-feature_row:
-  - image_path: /assets/images/emotion-recognition-thumb.png
-    alt: "Emotion Recognition Project"
-    title: "AI Emotion Recognition"
-    excerpt: "A deep learning project focused on detecting human emotions from facial expressions using CNNs."
-    url: "https://github.com/NeuromancerAI/Emotion-recognition"
-    btn_class: "btn--primary"
-    btn_label: "View Repository"
----
-{% include feature_row %}
+        nav: "navigation" # This must match the key 'navigation' above
