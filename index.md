@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: single
 author_profile: true
 feature_row:
   - image_path: /assets/images/emotion-recognition-thumb.png
