@@ -1,6 +1,7 @@
 ---
 layout: single
 author_profile: true
+# Keep your feature_row here if you want to showcase the project
 feature_row:
   - image_path: /assets/images/emotion-recognition-thumb.png
     alt: "Emotion Recognition Project"
