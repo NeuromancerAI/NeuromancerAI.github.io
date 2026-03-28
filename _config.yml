@@ -1,4 +1,4 @@
-theme: jekyll-theme-minimal
+remote_theme: "mmistakes/minimal-mistakes"
 title: "DIMO ILIEV, Senior Technical Product Manager"
 description: "Bookmark this to keep an eye on my project updates!"
 
@@ -17,3 +17,5 @@ defaults:
       author_profile: true
       sidebar:
         nav: "navigation" # This must match the key 'navigation' above
+plugins:
+  - jekyll-remote-theme
