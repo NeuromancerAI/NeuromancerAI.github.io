@@ -12,4 +12,4 @@ feature_row:
     btn_label: "View Repository"
 ---
 
-{% include feature_row %}
+
